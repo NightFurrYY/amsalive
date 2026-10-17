@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: amsa-2-research
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: AMSA_FACE_MODEL
+        value: off

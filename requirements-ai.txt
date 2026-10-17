@@ -1,0 +1,9 @@
+-r requirements.txt
+numpy>=1.26,<3
+pillow>=10,<12
+librosa>=0.10.2,<1
+soundfile>=0.12,<1
+scikit-learn>=1.5,<2
+joblib>=1.4,<2
+# Facial inference is OPTIONAL and very large. Use a compatible Python 3.11 environment.
+deepface>=0.0.93,<1
